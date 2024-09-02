@@ -47,7 +47,7 @@ body{
     font-size: 64px;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
-    padding:80px;
+    padding: 80px 0 0 ;
 }
 .section1 h3{
     margin: 0;
@@ -64,33 +64,34 @@ body{
 .feature-container{
     display:flex;
     justify-content:space-evenly;
+    margin: 80px 100px;
 }
 .feature-container .feature1{
     background-color: #2d2d2d;
     color:white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     margin: 0;
-    padding: 20px 80px 20px 40px;
+    padding: 20px 40px 20px 40px;
 }
 .feature-container .feature2{
     background-color: #2671a3;
     color:white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     margin: 0;
-    padding: 20px 80px 20px 40px;
+    padding: 20px 40px 20px 40px;
 }
 .feature-container .feature3{
     background-color: #3d97c6;
     color:white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     margin: 0;
-    padding: 20px 80px 20px 40px;
+    padding: 20px 40px 20px 40px;
 }
 .section2{
     background-color: white;
@@ -100,16 +101,18 @@ body{
 }
 .poffers{
     display:flex;
+    flex-flow:row wrap;
     justify-content: space-evenly;
+    margin: 0 140px;
 }
 .coffers{
     height: 400px;
-    width:250px;
-    background-color: #2d2d2d;
-    margin: 100px 10px;
+    width: 180px;
+    background-color: rgb(239, 237, 237);
+    margin: 100px 10px 0px;
 
 }
-footer.offers{
+footer.poffers{
     border-top: 1px solid rgb(161, 155, 155);
     margin: 0 250px;
     padding:20px;
